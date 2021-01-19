@@ -1,0 +1,12 @@
+Test BimBamJob
+
+1) param NodeJs
+2) Lire le fichier ligne par ligne
+3) Parse le fichier en identifiant les lignes d'instructions (grâce à regex)
+4) Creer 2 objets => Pelouse & Tondeuse
+5) Creer un Tableau 
+6) Donner instruction au tableau : 
+    . si il y 2 chiffres => Définir le taille de la map
+    . si il y a 1 1 N => c'est le départ
+    . si il y a seulement des maj => Deplacement de la tondeuse
+7) Output
