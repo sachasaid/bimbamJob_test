@@ -1,6 +1,6 @@
 Test BimBamJob
 
-1) param NodeJs
+1) Param NodeJs
 2) Lire le fichier ligne par ligne
 3) Parse le fichier en identifiant les lignes d'instructions (grâce à regex)
 4) Creer 2 objets => Pelouse & Tondeuse
