@@ -3,8 +3,8 @@ Test BimBamJob
 1) Param NodeJs
 2) Lire le fichier ligne par ligne
 3) Parse le fichier en identifiant les lignes d'instructions (grâce à regex)
-5) Creer un Tableau a 2 Dimension
-4) Creer 2 objets
+4) Creer un Tableau a 2 Dimension
+5) Creer 2 objets
 6) Donner instruction au tableau : 
     . si il y 2 chiffres => Définir le taille de la map
     . si il y a 1 1 N => c'est le départ
