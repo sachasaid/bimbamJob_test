@@ -74,7 +74,7 @@ function Road() {
     const orientationArray = ["N", "E", "S", "W"];
 
     //Tableau pour rendre numérique la direction de mon objet
-    const directionObject = {
+    const instructionObject = {
         D: 1,
         G: -1,
     };
@@ -99,7 +99,7 @@ function Road() {
         // Verification si c'est une orientation
         const isOrientation = directions[i] !== "A";
         if (isOrientation) {
-            const orientationModifier = directionObject[directions[i]];
+            const orientationModifier = instructionObject[directions[i]];
             let finalOrientation = array[finalPosY][finalPosX] + orientationModifier;
             if (finalOrientation >= orientationArray.length) {
                 finalOrientation = 0;
